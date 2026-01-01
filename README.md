@@ -1,5 +1,6 @@
 🌙 Dark Mode Pokédex Project
-Overview
+
+Overview:
 The Dark Mode Pokédex is a modern, interactive web application designed to serve as both a visual gallery and a battle simulation arena for Pokémon enthusiasts. Built with a focus on aesthetic design and user engagement, this project leverages a local JSON database to dynamically render detailed character cards, offering a sleek "Dark Mode" interface that highlights the vibrant artwork and elemental types of each Pokémon.
 
 Key Features
