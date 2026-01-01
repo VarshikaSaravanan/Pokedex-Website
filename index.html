@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pokédex</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>🌙 Dark Pokédex</h1>
+  </header>
+
+  <main id="pokemon-container"></main>
+
+  <!-- Battle Modal -->
+  <div id="battle-popup" class="hidden">
+    <div class="popup-content">
+      <button id="battle-btn">⚔️ Battle!</button>
+    </div>
+  </div>
+
+  <!-- Battle Result Modal -->
+  <div id="battle-modal" class="modal hidden">
+    <div class="modal-content">
+      <span class="close-button" onclick="closeBattleModal()">&times;</span>
+      <div id="battle-animation"></div>
+      <div id="battle-log"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
